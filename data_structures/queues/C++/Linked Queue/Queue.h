@@ -23,10 +23,10 @@ class Queue
 public:
 	int length();
 	T Front();
+	bool Empty();
 	void push(T);
 	void pop();
 	void clear();
 	Queue();
 	~Queue();
 };
-
